@@ -52,34 +52,48 @@ img:hover {
 
 /*imagens*/
 
-#picture-logo-pagina-principal {
-
-    padding: 5px;
-    border: 2px solid rgba(250, 248, 248, 0.37);
-    background-color: azure;
-    border-radius: 80%;
-    margin: 10px auto;
-    text-align: right;
-    
-
-    display: flex;
-    
-
-    width: 15svh;
+#picture-logo-pagina-principal { 
+    padding: 0; 
+    border: 2px solid rgba(250, 248, 248, 0.37); 
+    background-color: azure; 
+    border-radius: 80%; 
+    margin: 70px auto; 
+    display: block;  
+    width: 15svh; 
     height: 15svh;
+
+    img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 }
 
 #div-imagens-pagina-principal {
     text-align: center;
 }
 
+.div-perfil-img{
+    padding: 23px;
+    margin: 720px auto;
+
+}
 .imagens-tamanho {
     box-align: center;
     width: 29svh;
     align-items: center;
 }
 
+#next-player{
+    display: block;
+    justify-content: center;
+    margin-top: 25px auto;
+
+}
+
 /*links*/
+
+
 
 .div-link-retornar-pagina-principal {
     text-align: center;
